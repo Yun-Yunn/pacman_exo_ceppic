@@ -4,8 +4,6 @@ let playground = document.getElementById("playground");
 //MyElement on remplace le playground la ou on veux utiliser le doigt
 // on = addEventListener
 let hammertime = new Hammer(playground);
-
-
 let posX = 0, posY = 0;
 console.dir(playground);
 let witdhPlayground = playground.clientWidth;
